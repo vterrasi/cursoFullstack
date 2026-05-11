@@ -1,0 +1,173 @@
+· * Crear la clase Helado
+    Atributos:
+        - String sabor
+    Constructor:
+        - Uno con el sabor.
+
+    Seleccionar el tipo de acceso apropiado para el atributo sabor,
+    teniendo en cuenta que no usaremos un getter desde las class derivadas
+    para acceder al material de cada helado.
+
+    Crear las clases de Frigopie, SandwichNata y Calippo, que heredan de Helado.
+
+    Las 3 tienen un constructor con el parámetro sabor, que reutiliza el
+    constructor de la clase padre.
+
+    Cada helado sobreescribirá el método toString y devolverá el mensaje:
+    "Soy un NOMBREHELADO de SABOR".
+
+    Crear un helado de cada tipo y mostrar su mensaje por pantalla.
+
+* Crear la clase FanDeporte.
+Atributos:
+    · String deporte
+Constructor:
+    Uno con el parametro deporte
+Metodos:
+    Metodo toString sobreescrito que devuelve el mensaje
+"Soy un fan del DEPORTE".
+
+Seleccionar la visibilidad adecuada para la propiedad deporte.
+
+* Crear la clase FanF1, que hereda de FanDeporte.
+    Atributos:
+        · String pilotoFavorito
+    Constructor:
+        · Uno con los dos parametros.
+    Métodos:
+        · Metodo toString sobreescrito que devuelve el mensaje:
+        "Soy un fan del DEPORTE y mi piloto favorito es PILOTOFAVORITO".
+        Seleccionar la visibilidad adecuada para la propiedad pilotoFavorito.
+
+* Crear la clase FanTenis, que hereda de FanDeporte.
+    Atributos:
+        · String tenistaFavorito
+    Constructor:
+        · Uno con los dos parametros.
+    Métodos:
+        · Metodo toString sobreescrito que devuelve el mensaje:
+        "Soy un fan del DEPORTE y mi tenista favorito es TENISTAFAVORITO".
+        Seleccionar la visibilidad adecuada para la propiedad tenistaFavorito.
+
+· Crear 2 fans de la F1 y 2 fans del tenis y mostrar los 4 por pantalla.
+
+* Crear la clase AparatoElectrico
+    Atributos
+        private int voltaje
+    Constructor
+        uno con el voltaje
+    Metodos
+        · Metodo toString sobreescrito que muestra el voltaje.
+
+* Crear la clase Tostadora que hereda de AparatoElectrico
+    Atributos
+        String modelo;
+        int tiempoTostado;
+        boolean bandejaExtraible;
+    Seleccionar visibilidad adecuada para las propiedades.
+    Constructor
+        Uno con todos los parámetros (incluido el voltaje).
+
+    Metodos
+        ·Tostar, que saca por pantalla el mensaje "Tostando el pan,
+tardará TIEMPOTOSTADO minutos"
+        ·Si tiene bandejaExtraible, tambien aparecera "Al terminar,
+    puede retirar las migas con la bandeja extraible".
+
+    Crear dos tostadoras distintas y poner a tostar el pan.
+
+* Crear la clase horno, que hereda de AparatoElectrico
+    Atributos
+        String modelo;
+        int potencia;
+        String[] funciones;
+
+    Seleccionar visibilidad adecuada para las propiedades.
+
+    Constructor
+        Uno con todos los parámetros (incluido el voltaje).
+
+    Metodos:
+        · Mostrar, que saca por pantalla el mensaje "Este es un horno MODELO
+con POTENCIA vatios de potencia, VOLTAJE voltios y sus funciones son: FUNCIONES"
+
+Crear dos hornos y mostrarlos.
+
+* Queremos hacer un modelado de jugadores de baloncesto. Todos los
+jugadores de baloncesto tendrán un nombre y perteneceran a un equipo.
+Los jugadores de baloncesto pueden ser atacantes o defensores,
+no ambos a la vez, y tendrán un comportamiento adecuado a cada
+tipo definido. Todos los jugadores de baloncesto podrán mostrar su
+información, pero solo los atacantes podran atacar y los defensores
+defender.
+
+Crear un atacante, hacerlo atacar y mostrar sus datos y crear un
+defensor y hacerlo defender u mostrar sus datos.
+
+nombrejugador
+nombreEquipo
+Si tiene el balon: esAtacante
+Si no tiene el balon: esDefensor
+
+Atacante (Equipo con balón)
+String Atacante: {Dribbling, pase, tiro, "movimiento sin balon", rebote ofensivo}
+
+Defensor (Equipo sin balón)
+String Defensor: {"Postura defensiva", "marcaje al hombre", "presion al balon", "Defensa del lado debil/fuerte", "rebote defensivo"}
+
+(1) Base
+(2) Escolta
+(3) Alero
+(4) Ala-pívot
+(5) Pívot
+
+TipoDeQueso (String TipoDeleche, String notaDeCata, float ICG)
+
+* Queremos modelar una elaboracion de quesos monovariedad de leche. Todos los
+quesos tienen:
+    - Una variedad de leche:
+        1. Leche de cabra
+        2. Leche de oveja
+            - Manchega
+            - Churra
+            - Castellana
+            - Latxa
+            - Merina
+        También:
+            matizNotaDeCata(String Tipo de oveja)
+
+        3. Leche de vaca
+            matizMaduracionVaca(int Tiempo de maduracion)
+
+    - Una nota de cata (Un String con informacion del sabor del producto al probarlo)
+
+    - Un porcentaje de contenido graso.
+
+Segun el tipo de leche que se use, ese porcentaje de contenido graso variará.
+Ademas de todos los quesos se podrá obtener un índice de
+contenido graso, que podrá ser A, B o C, según su porcentaje de grasa:
+
+        Índice de contenido graso (ICG):
+            A = menor o igual al 25%
+            B = mayor del 25% y menor del 50%
+            C = mayor del 50%
+
+
+El queso de cabra no tiene particularidades además de las ya descritas.
+
+El queso de oveja tiene una particularidad: La leche de oveja puede ser
+de varios tipos de ovejas (churras, merinas...) y segun la leche que sea
+esto modificara la nota de cata, añadiéndole matices que dependerán del
+tipo de oveja. Otro código especializado del sistema (otra clase), será
+el que, al enviarle el tipo de oveja devolverá el matiz que hay que aplicar
+a la nota de cata.
+
+El queso de vaca tiene una particularidad: segun el tiempo en dias
+que haya transcurrido desde que se haya ordeñado la leche,
+esta modificará la nota de cata añadiéndole matices. Cada queso
+de vaca "sabrá", en base a este tiempo, que matices añadir a la nota
+de cata.
+
+Crear un queso de cada tipo y mostrar un indice de contenido graso y
+su nota de cata.
+

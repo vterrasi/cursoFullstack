@@ -1,0 +1,23 @@
+** Queremos hacer un catalogador de películas.
+· Cada película tiene: título, valoración del 1 al 10 (entera), género, duración (entera,
+en minutos).
+· Además cada película tendrá un director y uno o varios actores que participen.
+· Cada director tendrá un nombre completo y un número de películas dirigidas.
+· Cada actor tendrá un nombre completo y un género en el que destaque.
+· Los géneros posibles tanto en las películas como destacados en los actores
+serán los mismos (pensar como "compartirlos").
+· El catalogador contendrá una colección de películas, que empezará vacía,
+a la que se podrán ir añadiendo películas.
+· Podrá mostrar la información de una película pedida por parámetro, utilizando
+su título (mostrando la película, a su vez la información de su director y actores).
+· Permitirá obtener una lista de las películas con una valoración igual o superior a la
+indicada por parámetro.
+· Permitirá obtener una lista de las películas en las que participa un actor determinado,
+indicada por su nombre.
+· Permitirá obtener una lista de las películas de un género determinado.
+· Permitirá obtener un resumen estadístico, que luego podrá ser mostrado por consola,
+con la siguiente información:
+    - Película de mayor duración.
+    - Película de menor duración.
+    - Media aritmética de duración de las películas en el catálogo.
+
