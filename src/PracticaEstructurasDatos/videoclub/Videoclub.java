@@ -24,16 +24,19 @@ class Videoclub {
     }
 
     public void alquilar(String titulo) {
+        // 1. Primero comprobamos si hay alguien en el mostrador
+        if (usuarioLogueado == null) {
+            System.out.println("-> [ERROR] 💥💀 *** Tienes que estar logueado para alquilar una película. *** 💀💥");
+            return; // Nos salimos y no hacemos nada más
+        }
+
+        // 2. Si hay alguien, seguimos con la lógica de siempre
         for (Pelicula p : catalogo) {
             if (p.getTitulo().equalsIgnoreCase(titulo.trim()) && p.getStock() > 0) {
                 p.reducirStock();
                 Alquiler a = new Alquiler(p, p.getPrecio());
-                if (usuarioLogueado != null) {
-                    usuarioLogueado.agregarAlquiler(a);
-                    System.out.println("¡Película alquilada correctamente por " + usuarioLogueado.getNombre() + "!");
-                } else {
-                    System.out.println("¡Película alquilada correctamente por usuario anónimo!");
-                }
+                usuarioLogueado.agregarAlquiler(a);
+                System.out.println("¡Película alquilada correctamente por " + usuarioLogueado.getNombre() + "!");
                 return;
             }
         }
