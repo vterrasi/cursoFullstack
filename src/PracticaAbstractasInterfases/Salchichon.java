@@ -10,6 +10,3 @@ class Salchichon extends Embutido {
         System.out.println("Preparando Salchichón: Se pica la carne fina y se deja curar al aire.");
     }
 }
-
-
-

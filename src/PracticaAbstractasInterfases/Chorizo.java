@@ -10,3 +10,4 @@ class Chorizo extends Embutido {
         System.out.println("Preparando Chorizo: Se mezcla con pimentón y se embuten en tripa natural.");
     }
 }
+

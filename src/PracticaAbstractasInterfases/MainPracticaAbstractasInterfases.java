@@ -1,8 +1,9 @@
-package PracticaAbstractasInterfases;
+package practicaClasesAbstractas;
 
-public class MainPracticaAbstractasInterfases {
+public class MainPracticaClasesAbstractas {
     public static void main(String[] args) {
-        // Creamos los objetos
+        System.out.println("En MainPracticaClasesAbstractas");
+
         Embutido miSalchichon = new Salchichon();
         Embutido miChorizo = new Chorizo();
         Embutido miLomo = new Lomo();
@@ -11,5 +12,27 @@ public class MainPracticaAbstractasInterfases {
         miSalchichon.preparar();
         miChorizo.preparar();
         miLomo.preparar();
+
+//--------------------------------------------------------------------
+
+        // 1. Creamos las casas (existen independientemente)
+        Casa casaStark = new Casa("Stark", "Winter is coming");
+        Casa casaLannister = new Casa("Lannister", "A Lannister always pays his debts");
+
+        // 2. Creamos los personajes específicos
+        Stark ned = new Stark("Ned", casaStark);
+        Stark sansa = new Stark("Sansa", casaStark);
+
+        Lannister tyrion = new Lannister("Tyrion", casaLannister);
+        Lannister jamie = new Lannister("Jamie", casaLannister);
+
+        // 3. Hacemos que se presenten
+        ned.presentarse();
+        sansa.presentarse();
+        tyrion.presentarse();
+        jamie.presentarse();
+
+//--------------------------------------------------------------------
+
     }
 }
