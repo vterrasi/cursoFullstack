@@ -17,8 +17,8 @@ public class MainPracticaAbstractasInterfases {
 //--------------------------------------------------------------------
 
         // 1. Creamos las casas (existen independientemente)
-        Casa casaStark = new Casa("Stark", "Winter is coming");
-        Casa casaLannister = new Casa("Lannister", "A Lannister always pays his debts");
+        Casa casaStark = new Casa("Stark", "❄️ Winter is coming ❄️");
+        Casa casaLannister = new Casa("Lannister", "💰 A Lannister always pays his debts 💰");
 
         // 2. Creamos los personajes específicos
         Stark ned = new Stark("Ned", casaStark);
@@ -33,7 +33,9 @@ public class MainPracticaAbstractasInterfases {
         tyrion.presentarse();
         jamie.presentarse();
 
+        System.out.println("\n");
 //--------------------------------------------------------------------
+
 
     }
 }

@@ -11,6 +11,6 @@ public abstract class PersonajeJuegodeTronos {
 
     // Mét0do común para todos los personajes
     public void presentarse() {
-        System.out.println("Soy " + nombre + " de la Casa " + casa.nombre + ". ¡" + casa.lema + "!");
+        System.out.println("Soy " + nombre + " de la Casa " + casa.nombre + ". " + casa.lema + "!!!");
     }
 }

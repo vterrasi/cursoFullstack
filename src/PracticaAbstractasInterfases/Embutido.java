@@ -6,5 +6,6 @@ abstract class Embutido {
         this.ingredientes = ingredientes;
     }
 
+    //Mét0do abstracto puro
     public abstract void preparar();
 }
