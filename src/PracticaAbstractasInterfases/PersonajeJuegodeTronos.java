@@ -1,6 +1,6 @@
 package PracticaAbstractasInterfases;
 
-abstract class PersonajeJuegodeTronos {
+public abstract class PersonajeJuegodeTronos {
     String nombre;
     Casa casa; // El personaje TIENE una casa (Agregación)
 

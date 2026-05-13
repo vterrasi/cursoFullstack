@@ -8,6 +8,8 @@ cómo se prepara el embutido, sin implementación.
 añadirle los ingredientes al construirlo y que cada uno tenga su propia preparación
 Crear un embutido de cada y mostrar la preparación.
 
+//--------------------------------------------------------------------
+
 * Vamos a modelar personajes de Juego de Tronos.
 Necesitaremos una clase base de PersonajeJuegodeTronos.
 Todos los personajes tienen un nombre.
@@ -32,5 +34,8 @@ Queremos representar a los siguientes personajes:
 Ned y Sansa, de la casa Stark.
 Tyrion y Jamie, de la casa Lannister.
 Crear en un programa a todos los personajes y hacer que se presenten.
+
+//--------------------------------------------------------------------
+
 
 

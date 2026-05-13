@@ -1,8 +1,8 @@
-package practicaClasesAbstractas;
+package PracticaAbstractasInterfases;
 
-public class MainPracticaClasesAbstractas {
+public class MainPracticaAbstractasInterfases {
     public static void main(String[] args) {
-        System.out.println("En MainPracticaClasesAbstractas");
+        System.out.println("En MainPracticaClasesAbstractas\n");
 
         Embutido miSalchichon = new Salchichon();
         Embutido miChorizo = new Chorizo();
@@ -13,6 +13,7 @@ public class MainPracticaClasesAbstractas {
         miChorizo.preparar();
         miLomo.preparar();
 
+        System.out.println("\n");
 //--------------------------------------------------------------------
 
         // 1. Creamos las casas (existen independientemente)
