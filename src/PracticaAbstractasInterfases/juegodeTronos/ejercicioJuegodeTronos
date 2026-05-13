@@ -1,0 +1,24 @@
+* Vamos a modelar personajes de Juego de Tronos.
+Necesitaremos una clase base de PersonajeJuegodeTronos.
+Todos los personajes tienen un nombre.
+Además, todos los personajes que vamos a modelar pertenecen a una casa.
+Las casas existen al margen de los personajes, o sea que aunque un personaje no existiera,
+su casa seguiría existiendo. Cada casa tiene un lema propio.
+
+Queremos modelar las siguientes casas:
+
+Stark, cuyo lema es "Winter is coming".
+Lannister, cuyo lema es "A Lannister always pays his debts".
+
+Además, cada personaje puede presentarse diciendo su nombre
+y el lema de la casa a la que pertenece.
+
+Queremos ser más específicos y poder crear concretamente personajes
+de dos casas concretas: Stark y Lannister. No queremos crear personajes
+genéricos, sino personajes de una casa en concreto.
+No se crearán personajes de la clase base, sino de las derivadas.
+
+Queremos representar a los siguientes personajes:
+Ned y Sansa, de la casa Stark.
+Tyrion y Jamie, de la casa Lannister.
+Crear en un programa a todos los personajes y hacer que se presenten.

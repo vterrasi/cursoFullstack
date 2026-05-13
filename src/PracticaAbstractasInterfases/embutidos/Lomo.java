@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.embutidos;
 
 class Lomo extends Embutido {
     public Lomo() {

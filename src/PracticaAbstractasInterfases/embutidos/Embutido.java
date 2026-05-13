@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.embutidos;
 
 abstract class Embutido {
     String ingredientes;

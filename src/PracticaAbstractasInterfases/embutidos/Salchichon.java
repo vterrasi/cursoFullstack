@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.embutidos;
 
 class Salchichon extends Embutido {
     public Salchichon() {

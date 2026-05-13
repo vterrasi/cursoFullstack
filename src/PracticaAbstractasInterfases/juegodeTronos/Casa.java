@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.juegodeTronos;
 
 public class Casa {
     String nombre;

@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.embutidos;
 
 class Chorizo extends Embutido {
     public Chorizo() {

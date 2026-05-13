@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.juegodeTronos;
 
 class Lannister extends PersonajeJuegodeTronos {
     public Lannister(String nombre, Casa casaLannister) {

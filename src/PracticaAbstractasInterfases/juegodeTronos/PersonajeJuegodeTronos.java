@@ -1,4 +1,4 @@
-package PracticaAbstractasInterfases;
+package PracticaAbstractasInterfases.juegodeTronos;
 
 public abstract class PersonajeJuegodeTronos {
     String nombre;

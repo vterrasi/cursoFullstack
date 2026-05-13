@@ -1,0 +1,9 @@
+Crear la clase abstracta embutido
+    Atributos:
+        - String ingredientes
+    Métodos:
+        - Método para preparar que muestra por pantalla
+cómo se prepara el embutido, sin implementación.
+        - Crear los embutidos: salchichón, chorizo y lomo,
+añadirle los ingredientes al construirlo y que cada uno tenga su propia preparación
+Crear un embutido de cada y mostrar la preparación.

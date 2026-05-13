@@ -1,42 +1,3 @@
-Crear la clase abstracta embutido
-    Atributos:
-        - String ingredientes
-    Métodos:
-        - Método para preparar que muestra por pantalla
-cómo se prepara el embutido, sin implementación.
-        - Crear los embutidos: salchichón, chorizo y lomo,
-añadirle los ingredientes al construirlo y que cada uno tenga su propia preparación
-Crear un embutido de cada y mostrar la preparación.
-
-//--------------------------------------------------------------------
-
-* Vamos a modelar personajes de Juego de Tronos.
-Necesitaremos una clase base de PersonajeJuegodeTronos.
-Todos los personajes tienen un nombre.
-Además, todos los personajes que vamos a modelar pertenecen a una casa.
-Las casas existen al margen de los personajes, o sea que aunque un personaje no existiera,
-su casa seguiría existiendo. Cada casa tiene un lema propio.
-
-Queremos modelar las siguientes casas:
-
-Stark, cuyo lema es "Winter is coming".
-Lannister, cuyo lema es "A Lannister always pays his debts".
-
-Además, cada personaje puede presentarse diciendo su nombre
-y el lema de la casa a la que pertenece.
-
-Queremos ser más específicos y poder crear concretamente personajes
-de dos casas concretas: Stark y Lannister. No queremos crear personajes
-genéricos, sino personajes de una casa en concreto.
-No se crearán personajes de la clase base, sino de las derivadas.
-
-Queremos representar a los siguientes personajes:
-Ned y Sansa, de la casa Stark.
-Tyrion y Jamie, de la casa Lannister.
-Crear en un programa a todos los personajes y hacer que se presenten.
-
-//--------------------------------------------------------------------
-
 * Vamos a modelar el juego de los Monstruomones.
 - Un Monstruomon, tendrá un nombre, un tipo, una cantidad entera de vida, una cantidad entera de fuerza,
 una cantidad entera de defensa y un conjunto de ataques, que serán también de un tipo. Además
@@ -72,6 +33,3 @@ se podrán usar todas las veces que se quiera.
 EXTRA · Crear los MaestrosMonstruomon, de los que se podrá elegir uno antes de cada combate y poder consultarlo.
 EXTRA · Guardar cada turno de cada combate y sacar estadísticas (total combates, total turnos, combate
 con más turnos, daño total, ataque más usado, mayor daño en un ataque...).
-
-//--------------------------------------------------------------------
-
