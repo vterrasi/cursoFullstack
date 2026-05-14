@@ -20,7 +20,7 @@ public abstract class Monstruomon implements Atacable {
         this.ataques = new ArrayList<>();
     }
 
-    // Método que implementa la lógica de recibir porrazos
+    // Mét0do que implementa la lógica de recibir porrazos
     @Override
     public void recibirDanio(double danio) {
         int danioFinal = (int) Math.max(0, danio - this.defensa);

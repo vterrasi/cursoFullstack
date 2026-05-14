@@ -1,5 +1,5 @@
 package practicaAbstractasInterfases.monstruomones;
-// ESTA CLASE ESTA MODIFICADA PARA EL GESTOR DE ESTADISTICAS
+// ESTA CLASE ESTÁ MODIFICADA PARA EL GESTOR DE ESTADÍSTICAS
 
 //3. Extra: Estadísticas y Registro de Turnos
 //Para este extra, necesitamos una clase que guarde qué pasó en cada momento.

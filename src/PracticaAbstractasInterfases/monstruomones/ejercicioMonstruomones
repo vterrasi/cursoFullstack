@@ -18,8 +18,8 @@ y daño haga el ataque, menos la defensa del Monstruomon que reciba el ataque.
 
 · Los Monstruomones podrán combatir.
 · Un combate tiene dos Monstruomones participantes y un resultado (quien gana/pierde).
-· La aplicación se iniciará y mostrará un menú principal en el que el jugador podrá elegir qué Monstruomon
-usa para el combate y contra cual combate.
+· La aplicación se iniciará y mostrará un menú principal en el que el jugador podrá elegir qué
+Monstruomon usa para el combate y contra cual combate.
 · El combate se hará por turnos:
     · Empezará siempre el jugador.
     · El jugador podrá elegir un ataque de los disponibles de su Monstruomon.
