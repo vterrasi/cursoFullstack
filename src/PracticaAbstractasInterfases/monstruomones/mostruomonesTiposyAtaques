@@ -1,0 +1,162 @@
+------------------------------- TABLA DE TIPOS -------------------------------
+Tipo de Ataque,  Fuerte contra (x2),  Débil contra (x0.5),   Neutral contra (x1)
+Agua 💧,              Fuego,                Tierra,         Agua / Rayo / Neutral
+Fuego 🔥,            Tierra,                Agua,           Fuego / Rayo / Neutral
+Tierra ⛰️,            Rayo,                 Fuego,         Tierra / Agua / Neutral
+Rayo ⚡,               Agua,                Tierra,         Rayo / Fuego / Neutral
+Neutral ⚪,        (Ninguno),            (Ninguno),           Todos los tipos
+
+
+
+MONSTRUOMONES SEGUN SU TIPO:
+
+💧 Tipo Agua
+Aquadino: (Equilibrado) - Vida: 100 | Fuerza: 20 | Defensa: 15.
+
+Burbujón: (Tanque) - Vida: 150 | Fuerza: 12 | Defensa: 10.
+
+Sirenator: (Atacante) - Vida: 80 | Fuerza: 30 | Defensa: 8.
+
+🔥 Tipo Fuego
+Flamerion: (Atacante) - Vida: 90 | Fuerza: 35 | Defensa: 5.
+
+Tortubrasa: (Muro) - Vida: 110 | Fuerza: 15 | Defensa: 25.
+
+Canfuego: (Veloz/Equilibrado) - Vida: 100 | Fuerza: 25 | Defensa: 12.
+
+⚡ Tipo Rayo
+Voltio-Rat: (Atacante) - Vida: 75 | Fuerza: 40 | Defensa: 5.
+
+Nubarronio: (Equilibrado) - Vida: 110 | Fuerza: 22 | Defensa: 18.
+
+Chispagato: (Rápido) - Vida: 95 | Fuerza: 28 | Defensa: 10.
+
+⛰️ Tipo Tierra
+Topoterra: (Equilibrado) - Vida: 105 | Fuerza: 24 | Defensa: 16.
+
+Rocosaurio: (Tanque/Muro) - Vida: 140 | Fuerza: 18 | Defensa: 22.
+
+Arenito: (Estrategia) - Vida: 90 | Fuerza: 26 | Defensa: 14.
+
+⚪ Tipo Neutral
+Normalín: (Súper Equilibrado) - Vida: 100 | Fuerza: 20 | Defensa: 20.
+
+Gomibola: (Mucho aguante) - Vida: 180 | Fuerza: 10 | Defensa: 5.
+
+Rex-Básico: (Pura fuerza bruta) - Vida: 120 | Fuerza: 32 | Defensa: 12.
+
+*****************************************************************
+
+ATAQUES SEGUN SU TIPO:
+
+💧 Ataques de Tipo Agua
+Chorro de Agua: Un disparo a presión que empapa al rival.
+
+Burbuja Atrapante: Encierra al enemigo en una esfera de agua que explota al tocarlo.
+
+Ola Gigante: Una masa de agua enorme que aplasta t0do a su paso.
+
+Lluvia Ácida: Gotas corrosivas que caen del cielo dañando la defensa.
+
+Cuchilla de Hielo: Agua congelada tan afilada que corta como el acero.
+
+🔥 Ataques de Tipo Fuego
+Llamarada: Una gran lengua de fuego que lo quema t0do.
+Bola de Magma: Una roca ardiente sacada del centro de la tierra.
+
+Hálito de Dragón: Un soplo de aire caliente que deja al rival sofocado.
+
+Explosión Solar: Un estallido de luz y calor muy intenso.
+
+Chispa Infernal: Pequeñas brasas que saltan y queman la piel del enemigo.
+
+⚡ Ataques de Tipo Rayo
+Trueno: Un rayo que cae del cielo con un estruendo ensordecedor.
+
+Chispazo: Una descarga eléctrica rápida que salta entre las manos.
+
+Tormenta Eléctrica: Varias nubes rodean al rival lanzando rayos sin parar.
+
+Impactrueno: Un golpe físico cargado de electricidad estática.
+
+Voltaje Crítico: Una descarga masiva que puede sobrecargar al enemigo.
+
+⛰️ Ataques de Tipo Tierra
+Terremoto: El suelo tiembla con fuerza, haciendo que el rival pierda el equilibrio.
+
+Lanzamiento de Roca: Una piedra gigante lanzada con mucha fuerza bruta.
+
+Tormenta de Arena: Un remolino de arena que ciega y raspa al defensor.
+
+Pinchos de Piedra: Del suelo salen estacas afiladas que pinchan al oponente.
+
+Muro de Barro: Una ola de lodo pesado que cae encima del enemigo.
+
+⚪ Ataques de Tipo Neutral
+Placaje: Un golpe con t0do el cuerpo, sencillo pero efectivo.
+
+Cabezazo: Un impacto directo con la frente para aturdir al rival.
+
+Mordisco: Un ataque físico usando los dientes para hacer daño directo.
+
+Arañazo: Un golpe rápido con las garras que marca al enemigo.
+
+Embestida: Una carrera a toda velocidad para chocar contra el oponente.
+
+******************************************************************
+
+DAÑO DE CADA MONSTRUOMON
+💧 Tipo Agua
+Chorro de Agua: 10 de daño.
+
+Burbuja Atrapante: 15 de daño.
+
+Cuchilla de Hielo: 25 de daño.
+
+Lluvia Ácida: 35 de daño.
+
+Ola Gigante: 50 de daño (Este sería un ataque especial).
+
+🔥 Tipo Fuego
+Chispa Infernal: 10 de daño.
+
+Hálito de Dragón: 18 de daño.
+
+Bola de Magma: 28 de daño.
+
+Llamarada: 40 de daño.
+
+Explosión Solar: 55 de daño.
+
+⚡ Tipo Rayo
+Chispazo: 12 de daño.
+
+Impactrueno: 20 de daño.
+
+Tormenta Eléctrica: 30 de daño.
+
+Trueno: 45 de daño.
+
+Voltaje Crítico: 60 de daño (¡Cuidado con este!).
+
+⛰️ Tipo Tierra
+Tormenta de Arena: 10 de daño.
+
+Muro de Barro: 15 de daño.
+
+Pinchos de Piedra: 25 de daño.
+
+Lanzamiento de Roca: 38 de daño.
+
+Terremoto: 52 de daño.
+
+⚪ Tipo Neutral
+Arañazo: 12 de daño.
+
+Mordisco: 22 de daño.
+
+Placaje: 32 de daño.
+
+Cabezazo: 42 de daño.
+
+Embestida: 55 de daño.
